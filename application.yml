@@ -9,3 +9,10 @@ spring:
   profiles: dev
 server:
   port: 8888
+---
+spring:
+  application:
+    name: config-client
+  profiles: beta
+server:
+  port: 9999
